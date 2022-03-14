@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "first_name": "Ivo",
+      "last_name": "Soares",
+      "job_title": "Developer",
+      "email": "ivonaldojrsoares@gmail.com"
+    },
+    {
+      "first_name": "Maria",
+      "last_name": "Pereira",
+      "job_title": "Designer",
+      "email": "maria@teste.com"
+    },
+    {
+      "first_name": "Jose",
+      "last_name": "Santos",
+      "job_title": "Professor",
+      "email": "jose@gmail.com"
+    }
+  ]
+}
