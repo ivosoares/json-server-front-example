@@ -100,5 +100,36 @@
 }
 
 .users-list {
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.users-list .users-card {
+  width: 23%;
+  padding: 2%;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.39);
+  margin-top: 2%;
+}
+
+.btn-group {
+  margin-top: 2%;
+}
+
+.btn-delete {
+  outline: none;
+  border: none;
+  background-color: rgb(218, 84, 84);
+  color: #FFF;
+  padding: 5px 10px;
+  border-radius: 10%;
+}
+
+.btn-edit {
+  outline: none;
+  border: none;
+  background-color: rgb(66, 118, 240);
+  color: #FFF;
+  padding: 5px 10px;
+  border-radius: 10%;
 }

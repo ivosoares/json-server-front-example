@@ -25,73 +25,30 @@
   </header>
   <section class="users-container container">
     <section class="users-form">
-      <form action="">
+      <form action="" onsubmit="submitForm(event)">
         <div class="input-group">
-          <label for="">Nome:</label>
-          <input type="text">
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome">
         </div>
         <div class="input-group">
-          <label for="">Sobrenome:</label>
-          <input type="text">
+          <label for="sobrenome">Sobrenome:</label>
+          <input type="text" name="sobrenome" id="sobrenome">
         </div>
         <div class="input-group">
-          <label for="">Profissão:</label>
-          <input type="text">
+          <label for="profissao">Profissão:</label>
+          <input type="text" name="profissao" id="profissao">
         </div>
         <div class="input-group">
-          <label for="">Email:</label>
-          <input type="text">
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email">
         </div>
-        <button>Enviar</button>
+        <button type="submit">Enviar</button>
       </form>
     </section>
-    <section class="users-list">
-      <div class="users-card">
-        <h2>Joao Silva</h2>
-        <h3>Desenvolvedor</h3>
-        <h4>joao@email.com</h4>
-        <div class="btn-group">
-          <button>Excluir</button>
-          <button>Editar</button>
-        </div>
-      </div>
-      <div class="users-card">
-        <h2>Joao Silva</h2>
-        <h3>Desenvolvedor</h3>
-        <h4>joao@email.com</h4>
-        <div class="btn-group">
-          <button>Excluir</button>
-          <button>Editar</button>
-        </div>
-      </div>
-      <div class="users-card">
-        <h2>Joao Silva</h2>
-        <h3>Desenvolvedor</h3>
-        <h4>joao@email.com</h4>
-        <div class="btn-group">
-          <button>Excluir</button>
-          <button>Editar</button>
-        </div>
-      </div>
-      <div class="users-card">
-        <h2>Joao Silva</h2>
-        <h3>Desenvolvedor</h3>
-        <h4>joao@email.com</h4>
-        <div class="btn-group">
-          <button>Excluir</button>
-          <button>Editar</button>
-        </div>
-      </div>
-      <div class="users-card">
-        <h2>Joao Silva</h2>
-        <h3>Desenvolvedor</h3>
-        <h4>joao@email.com</h4>
-        <div class="btn-group">
-          <button>Excluir</button>
-          <button>Editar</button>
-        </div>
-      </div>
+    <section class="users-list" id="lista">
+      
     </section>
   </section>
+  <script src="script.js"></script>
 </body>
 </html>
